@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d6e4f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    -webkit-box-shadow: 1px 2px 12px 2px rgba(0,0,0,0.6); 
+    box-shadow: 1px 2px 12px 2px rgba(0,0,0,0.6);
+    border-radius: 5px;
+    width: 400px;
+    background-color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form {
+    padding: 30px 40px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #777777;
+}
+
+.form-control input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid #f0f0f0;
+    border-radius: 3px;
+}
+
+.form-control input:focus {
+    outline: none;
+    border: solid 2px #484f4f;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.3rem;
+    border: 2px solid #1e56a0;
+    background-color: #1e56a0;
+    color: #ffffff;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.form-control small {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    color: #db3056;
+    visibility: hidden;
+}
+
+.form-control.success input {
+    border-color: #1fab89;
+}
+
+.form-control.error input {
+    border-color: #db3056;
+}
+
+.form-control.error small {
+    visibility: visible;
+}
