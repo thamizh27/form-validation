@@ -92,3 +92,48 @@ h2 {
 .form-control.error small {
   visibility: visible;
 }
+
+/* media queries */
+
+@media (max-width: 500px) {
+  .container {
+    border-radius: 5px;
+    width: 300px;
+    height: fit-content;
+  }
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  .form {
+    padding: 20px 30px;
+  }
+
+  .form-control {
+    margin-bottom: 7px;
+    padding-bottom: 14px;
+  }
+
+  .form-control label {
+    margin-bottom: 3px;
+    font-size: 1rem;
+  }
+
+  .form-control input {
+    padding: 7px;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .form button {
+    padding: 7px;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    margin-top: 15px;
+  }
+
+  .form-control small {
+    font-size: small;
+  }
+}
