@@ -74,7 +74,7 @@ form.addEventListener("submit", e => {
         checkLength(username,3,15);
         checkLength(password,6,20);
         checkEmailValidate(email);
-        passswordMatch(passsword,password2);
+        passswordMatch(password,password2);
     }
 
 });
